@@ -6,7 +6,7 @@ const sql = new Pool({
     password: "senai",
     host: "localhost",
     port: 5432,
-    database: "receita"
+    database: "receitas"
 })
 
 const servidor = Fastify()
