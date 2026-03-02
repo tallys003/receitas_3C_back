@@ -1,3 +1,13 @@
 ###
 
-GET http://localhost:3000/usuarios/
+GET https://localhost:3000/usuarios
+
+###
+
+POST  https://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+    "nome": "joão",
+    "senha": "123"
+}

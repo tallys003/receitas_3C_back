@@ -15,7 +15,6 @@ CREATE TABLE USUARIO (
 	usuario_id INTEGER NOT NULL REFERENCES USUARIO(id) ON DELETE CASCADE
 	
   );
-  select * from usuario
 
 
   
